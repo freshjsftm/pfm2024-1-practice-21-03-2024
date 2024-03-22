@@ -1,0 +1,40 @@
+.wrapper-header {
+  background-color: #333;
+}
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  min-width: 300px;
+  width: 95%;
+  max-width: 920px;
+
+  padding: 0.5em 0;
+  margin: auto;
+
+  color: #eee;
+}
+.header > *:not(.contact) {
+  padding-right: 2em;
+  margin-right: auto;
+}
+.logo {
+  font-family: "Shantell Sans", cursive;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 2em;
+}
+.nav-item {
+  display: inline-block;
+}
+.nav-link {
+  display: block;
+  padding: 1em;
+  padding-left: 0;
+}
+.contact {
+  display: block;
+  padding: 0.5em 1em;
+  border: 1px solid #aaa;
+}
