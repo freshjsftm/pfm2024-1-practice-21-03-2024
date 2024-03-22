@@ -1,0 +1,10 @@
+.main-section{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
+.main-article{
+  flex: 0 0 30%;
+  margin: 5px;
+  background-color: bisque;
+}
